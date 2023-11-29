@@ -4,17 +4,17 @@
 */
 
 enum Day {
-  MONDAY,
-  TUESDAY,
-  WEDNESDAY,
-  THURSDAY,
-  FRIDAY,
-  SATURDAY,
-  SUNDAY,
+  MON = "Monday",
+  TUE = "Tuesday",
+  WED = "Wednesday",
+  THU = "Thursday",
+  FRI = "Friday",
+  SAT = "Saturday",
+  SUN = "Sunday",
 }
 
 function isWeekend(day: Day): boolean {
-  if (day === Day.SATURDAY || day === Day.SUNDAY) {
+  if (day === Day.SAT || day === Day.SUN) {
     return true;
   } else {
     return false;

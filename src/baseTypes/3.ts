@@ -1,5 +1,5 @@
 let some: any;
-some = 'Text';
+some = "Text";
 let str: string;
 str = some;
 
