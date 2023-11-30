@@ -15,11 +15,3 @@ function customError(): never {
 }
 
 export {};
-
-function calc2(num1: number | string, num2: number | string): number | string {
-  if (typeof num1 === "string" || typeof num2 === "string") {
-    return num1.toString() + num2.toString();
-  } else {
-    return num1 + num2;
-  }
-}
